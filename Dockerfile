@@ -12,5 +12,5 @@ FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html 
 # หมายเหตุ: หากใช้ Create React App ให้เปลี่ยน /app/dist เป็น /app/build
 
-EXPOSE 4000
+EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
