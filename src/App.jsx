@@ -11,6 +11,7 @@ function App() {
         <p className="small">
           Hello, This is demo for CI/CD Pipeline 
           written by korawit orkphol
+          update 2026-3-13
         </p>
         <p>
           <a
