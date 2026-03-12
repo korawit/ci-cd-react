@@ -10,6 +10,7 @@ function App() {
         </p>
         <p className="small">
           Hello, This is demo for CI/CD Pipeline 
+          written by korawit orkphol
         </p>
         <p>
           <a
