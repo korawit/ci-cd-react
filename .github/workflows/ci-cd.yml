@@ -45,4 +45,4 @@ jobs:
             docker pull korawitorkphol/ci-cd-react:latest
             docker stop ci-cd-react-app || true
             docker rm ci-cd-react-app || true
-            docker run -d --name ci-cd-react-app -p 4000:4000 korawitorkphol/ci-cd-react:latest
+            docker run -d --name ci-cd-react-app -p 80:80 korawitorkphol/ci-cd-react:latest
